@@ -1,22 +1,7 @@
-# Trybe
-
 ## Fundamentos do Desenvolvimento Web
 
 Nosso primeiro módulo te ensinará tudo que você precisa saber para iniciar sua carreira no mundo do desenvolvimento Web, virando uma pessoa preparada para os módulos de front-end e back-end. Vamos te guiar, etapa a etapa, por toda essa jornada!
 
- - #### Bloco 01: Unix & Bash
- 
-	 - 03: Fundamentos do Desenvolvimento Web 
-	 - 03: Introdução - Unix & Shell  
-	 - 03: Unix & Bash - Parte 1 
-	 - 04: Unix &  Bash - Parte 2
-
- - #### Bloco 02: Git, GitHub e Internet
- 
-	 - 01: Git & GitHub - O que é e para que serve
-	 - 02: Git & GitHub - Entendendo os comandos 
-	 - 03: Internet - Entendendo como ela funciona 
-	 
  - #### Bloco 03: Introdução à HTML e CSS
 
 	 - 01: Introdução - HTML & CSS 
@@ -25,4 +10,3 @@ Nosso primeiro módulo te ensinará tudo que você precisa saber para iniciar su
 	 - 03: HTML & CSS - Seletores e posicionamento
 	 - 04: HTML Semântico
 	 - 05: Projeto -  Lessons Learned
- 
