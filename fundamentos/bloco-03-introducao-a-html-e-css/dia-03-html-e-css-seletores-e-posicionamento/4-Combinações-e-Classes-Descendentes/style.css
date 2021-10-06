@@ -1,0 +1,61 @@
+
+ol li {
+  background-color: yellow;
+}
+
+ol li:nth-of-type(even) {
+  color: green;
+}
+
+ol li:nth-of-type(odd) {
+  text-transform: uppercase;
+}
+
+h1, h2, h3 {
+  color: red;
+}
+
+h1, h2, h3 > em {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+li {
+  font-size: 20px;
+}
+
+li > em {
+  font-weight: bold;
+}
+
+.language li:nth-child(-1n+3) {
+  color: blue;
+}
+
+.lang-java {
+  background-color: pink;
+}
+
+.allies li a:hover {
+  font-weight: bold;
+}
+
+.allies li a:hover[href^="https://pt.stackoverflow.com/"] {
+  color: orange;
+}
+
+.allies li a:hover[href^="https://www.w3schools.com/"] {
+  color: green;
+}
+
+.allies li a:hover[href^="https://developer.mozilla.org/pt-BR/"] {
+  color: black;
+}
+
+.allies li a:hover[href^="https://devdocs.io/"] {
+  color: yellow;
+}
+
+.allies li a:hover[href^="https://app.betrybe.com/"] {
+  color: green;
+}
