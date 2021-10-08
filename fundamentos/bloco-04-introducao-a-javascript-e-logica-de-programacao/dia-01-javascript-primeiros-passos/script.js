@@ -25,8 +25,24 @@ const a = 12;
 const b = 8;
 
 if (a > b) {
-  console.log("Variável 'a' é maior que 'b'");
+  console.log("Variável A é maior que B");
 }
 else {
-  console.log("Variável 'b' é maior que 'a'")
+  console.log("Variável B é maior que A")
+}
+
+// Exercícios 3 - Faça um programa que retorne o maior de três números. Defina no começo do programa três constantes com os valores que serão comparados.
+
+const a = 3;
+const b = 2;
+const c = 6;
+
+if (a > b && a > c) {
+  console.log("Variável A é maior que B e C");
+}
+else if (b > a && b > a) {
+  console.log("Variável B é maior que A e C");
+}
+else {
+  console.log("Variável C é maior que A e B");
 }
