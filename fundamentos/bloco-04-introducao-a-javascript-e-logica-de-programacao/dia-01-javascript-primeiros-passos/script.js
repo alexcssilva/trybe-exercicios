@@ -26,8 +26,7 @@ const b = 8;
 
 if (a > b) {
   console.log("Variável A é maior que B");
-}
-else {
+} else {
   console.log("Variável B é maior que A")
 }
 
@@ -39,11 +38,9 @@ const c = 6;
 
 if (a > b && a > c) {
   console.log("Variável A é maior que B e C");
-}
-else if (b > a && b > a) {
+} else if (b > a && b > a) {
   console.log("Variável B é maior que A e C");
-}
-else {
+} else {
   console.log("Variável C é maior que A e B");
 }
 
@@ -53,10 +50,26 @@ const valor= 0;
 
 if (valor > 0) {
   console.log("Positivo");
-}
-else if (valor == 0){
+} else if (valor == 0){
   console.log("Zero");
-}
-else {
+} else {
   console.log("Negativo");
+}
+
+// Exercícios 5 - Faça um programa que defina três constantes com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false , caso contrário. Se algum ângulo for inválido o programa deve retornar uma mensagem de erro.
+
+const angulo1 = 90;
+const angulo2 = 35;
+const angulo3 = 70;
+
+let soma = angulo1 + angulo2 + angulo3;
+
+if (angulo1 > 0 && angulo2 > 0 && angulo3 > 0) {
+  if (soma === 180) {
+    console.log(true);
+  } else {
+  console.log(false);
+  };
+} else {
+  console.log("erro");
 }
