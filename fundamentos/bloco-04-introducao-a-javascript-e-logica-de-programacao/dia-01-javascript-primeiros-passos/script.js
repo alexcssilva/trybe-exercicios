@@ -148,3 +148,18 @@ if (numberA % 2 != 0 || numberB % 2 != 0 || numberC % 2 != 0) {
 } else {
   console.log(false);
 }
+
+// Exercícios 10 - Escreva um programa que se inicie com dois valores em duas constantes diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
+
+const productCost = 2;
+const saleCost = 5;
+
+let incomeTax = 0.2;
+
+if (productCost >= 0 && saleCost >= 0) {
+  const totalCost = productCost * incomeTax;
+  const profitProduct = (saleCost - totalCost) * 1000;
+  console.log(profitProduct)
+} else {
+  console.log("erro");
+}
