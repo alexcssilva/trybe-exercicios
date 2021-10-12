@@ -125,3 +125,15 @@ if (score > 100) {
 }
 
 
+// Exercícios 8 - Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false .
+
+const numberA = 5;
+const numberB = 3;
+const numberC = 8;
+
+if (numberA % 2 == 0 || numberB % 2 == 0 || numberC % 2 == 0) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
