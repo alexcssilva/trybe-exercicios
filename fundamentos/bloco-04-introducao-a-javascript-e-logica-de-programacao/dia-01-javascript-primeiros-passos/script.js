@@ -4,20 +4,20 @@
 const a = 5;
 const b = 3;
 
-const adicao = a + b;
-console.log(adicao);
+const addition = a + b;
+console.log(addition);
 
-const subtracao = a - b;
-console.log(subtracao);
+const subtraction = a - b;
+console.log(subtraction);
 
-const multiplicacao = a * b;
-console.log(multiplicacao);
+const multiplies = a * b;
+console.log(multiplies);
 
-const divisao = a / b;
-console.log(divisao);
+const share = a / b;
+console.log(share);
 
-const modulo = a % b;
-console.log(modulo);
+const modules = a % b;
+console.log(modules);
 
 // Exercícios 2 - Faça um programa que retorne o maior de dois números. Defina no começo do programa duas constantes com os valores que serão comparados.
 
@@ -46,11 +46,11 @@ if (a > b && a > c) {
 
 // Exercícios 4 - Faça um programa que, dado um valor definido numa constante, retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário.
 
-const valor= 0;
+const value;
 
-if (valor > 0) {
+if (value > 0) {
   console.log("Positivo");
-} else if (valor == 0){
+} else if (value == 0){
   console.log("Zero");
 } else {
   console.log("Negativo");
@@ -58,13 +58,13 @@ if (valor > 0) {
 
 // Exercícios 5 - Faça um programa que defina três constantes com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false , caso contrário. Se algum ângulo for inválido o programa deve retornar uma mensagem de erro.
 
-const angulo1 = 90;
-const angulo2 = 35;
-const angulo3 = 70;
+const angle1 = 90;
+const angle2 = 35;
+const angle3 = 70;
 
-let soma = angulo1 + angulo2 + angulo3;
+let sum = angle1 + angle2 + angle3;
 
-if (angulo1 > 0 && angulo2 > 0 && angulo3 > 0) {
+if (angle1 > 0 && angle2 > 0 && angle3 > 0) {
   if (soma === 180) {
     console.log(true);
   } else {
@@ -72,4 +72,32 @@ if (angulo1 > 0 && angulo2 > 0 && angulo3 > 0) {
   };
 } else {
   console.log("erro");
+}
+
+// Exercícios 6 - Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
+
+let gameOfChess = "cavalo";
+
+switch(gameOfChess.toLowerCase()) {
+  case "rei":
+    console.log("andar em qualquer direção, mas apenas de casa em casa");
+    break;
+  case "rainha":
+    console.log("Andar na horizontal, vertical e diagonal");
+    break;
+  case "torre":
+    console.log("Andar frente, trás, direita e esquerda"); 
+    break;
+  case "bispo":
+    console.log("Andar na diagonal");
+    break;
+  case "cavalo":
+    console.log("Movimentos em 'L'");
+    break;
+  case "peao":
+    console.log("Andar apenas para frente");
+    break;
+  default:
+    console.log("Peça informada não existe!");
+    break;
 }
