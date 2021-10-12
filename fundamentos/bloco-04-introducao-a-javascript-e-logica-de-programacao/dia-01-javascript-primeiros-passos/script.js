@@ -163,3 +163,45 @@ if (productCost >= 0 && saleCost >= 0) {
 } else {
   console.log("erro");
 }
+
+// Exercícios 11 - Uma pessoa que trabalha de carteira assinada no Brasil tem descontados de seu salário bruto o INSS e o IR. Faça um programa que, dado um salário bruto, calcule o líquido a ser recebido.
+
+const salary = 3000;
+let inss;
+let irrf;
+let irrfParcel;
+
+
+if (salary <= 1556.94) {
+  inns = 0.08;
+  irrf = 0;
+} else if (salary >= 1556.95 && salary <= 2594.92) {
+  inns = 0.09;
+} else if (salary >= 2594.93 && salary <= 5189.82) {
+  inss = 0.11;
+} else {
+  inns = 570.88
+}
+let grossSalary = salary - (salary * inss)
+
+if (grossSalary <= 1903.98) {
+  irrf = 0;
+  irrfParcel = 0;
+} else if (grossSalary >= 1903.99 && grossSalary <= 2826.65) {
+  irrf = 0.075;
+  irrfParcel = 142.80;
+} else if (grossSalary >= 2826.66 && grossSalary <= 3751.05) {
+  irrf = 0.15;
+  irrfParcel = 354.80;
+} else if (grossSalary >= 3751.06 && grossSalary <= 4664.68) {
+  irrf = 22.5;
+  irrfParcel = 636.13;
+} else {
+  irrf = 27.5;
+  irrfParcel = 869.36;
+}
+
+let netSalary = (grossSalary * irrf) - irrfParcel;
+let value = grossSalary - netSalary;
+
+console.log(value);
