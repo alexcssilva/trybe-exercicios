@@ -70,13 +70,19 @@
         chanceColorWhite();
 
 //  Crie uma função que corrija o texto da tag <h1>.
-        function chanceText() {
+        function correctText() {
           let text = document.getElementsByClassName('title')[0];
           text.innerHTML = 'Exercício 5.1 - JavaScript';
         }
-        chanceText();
-        
+        correctText();
+
 //  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+        function highText() {
+          let upperCase = document.getElementsByTagName('p')[0];
+          upperCase.innerHTML = upperCase.innerHTML.toUpperCase()
+        }
+        highText();
+        
 //  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
 
     </script>
