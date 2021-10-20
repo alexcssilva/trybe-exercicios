@@ -82,9 +82,17 @@
           upperCase.innerHTML = upperCase.innerHTML.toUpperCase()
         }
         highText();
-        
-//  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
 
+//  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+        function contentP() {
+          let p = document.getElementsByTagName('p');
+
+          for (let i = 0; i < p.length; i += 1) {
+            console.log(p[i].innerHTML)
+          }
+        }
+        contentP();
+        
     </script>
   </body>
 </html>
