@@ -56,12 +56,17 @@
         chanceText()
 
 //  Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
-        function chanceColor() {
-          let squareYellow = document.getElementsByClassName('main-content')[0];
-          squareYellow.style.backgroundColor = 'rgb(76,164,109)';
+        function chanceColorGreen() {
+          let squareGreen = document.getElementsByTagName('main')[0];
+          squareGreen.style.backgroundColor = 'rgb(76,164,109)';
         }
-        chanceColor()
+        chanceColorGreen()
 //  Crie uma função que mude a cor do quadrado vermelho para branco.
+        function chanceColorWhite() {
+          let squareWhite = document.getElementsByClassName('center-content')[0];
+          squareWhite.style.backgroundColor = 'rgb(255,255,255)';
+        }
+        chanceColorWhite()
 //  Crie uma função que corrija o texto da tag <h1>.
 //  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
 //  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
