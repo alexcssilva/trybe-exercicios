@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(255, 221, 231);
+  margin: 20px 3%;
+  font: 1.5em sans-serif;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+
+aside h2 {
+  font-size: 1.3em;
+}
+
+aside li {
+  font-size: 1 em;
+}
+
+.aside-two h2 {
+  text-align: center;
+}
+
+.main-content h1 {
+  font-size: 1.6em;
+  text-align: center;
+}
+
+@media screen and (min-width: 481px) {
+  body {
+    background-color: blue;
+  }
+}
