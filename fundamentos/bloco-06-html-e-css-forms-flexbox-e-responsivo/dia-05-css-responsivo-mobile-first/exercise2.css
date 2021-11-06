@@ -36,8 +36,28 @@ aside li {
   text-align: center;
 }
 
+footer {
+  text-align: center;
+}
+
+
+
 @media screen and (min-width: 481px) {
   body {
-    background-color: blue;
+    background-color: rgb(255, 251, 189);
+    margin: 25px 4%;
+    font: 1.5em sans-serif;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    background-color: rgb(182, 235, 252);
+    margin: 15px 5%;
+    font: 1.6em sans-serif;
+  }
+
+  footer {
+    font-size: 20px;
   }
 }
