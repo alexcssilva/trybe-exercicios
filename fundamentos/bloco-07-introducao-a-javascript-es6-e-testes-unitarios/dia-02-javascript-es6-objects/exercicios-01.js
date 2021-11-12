@@ -44,21 +44,24 @@ const order = {
 const customerInfo = (order) => {
   // Adicione abaixo as informações necessárias.
   
-  const name = order.order.delivery.deliveryPerson;
+  const nameBuyer = order.order.delivery.deliveryPerson;
   const recipient = order.name;
   const phoneNumber = order.phoneNumber;
   const streetAddress = order.address.street;
   const numberAddress = order.address.number;
   const apartAddress = order.address.apartment;
 
-  console.log(`Olá, ${name}. Entrega para: ${recipient}, Telefone: ${phoneNumber}, R. ${streetAddress}, Nº: ${numberAddress}, AP: ${apartAddress}.`);
+  console.log(`Olá ${nameBuyer}, entrega para: ${recipient}, Telefone: ${phoneNumber}, R. ${streetAddress}, Nº: ${numberAddress}, AP: ${apartAddress}.`);
 }
 
 customerInfo(order);
 
 const orderModifier = (order) => {
   // Adicione abaixo as informações necessárias.
+  const nameBuyer = order.name = 'Luiz Silva';
+  const priceDrink = order.order.drinks.coke.price = 50;
 
+  console.log(`Olá ${nameBuyer}, o total do seu pedido de marguerita, pepperoni e Coca-Cola Zero é R$ ${priceDrink},00.`);
 }
 
 orderModifier(order);
