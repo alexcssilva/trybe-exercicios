@@ -55,7 +55,7 @@ const addKey = (obj, key, value) => {
   obj[key] = value;
 }
 addKey(lesson2, 'turno', 'noite');
-
+// console.log(addKey(lesson1));
 
 // 2 - Crie uma função para listar as keys de um objeto. Essa função deve receber um objeto como parâmetro.
 
@@ -64,12 +64,10 @@ listKeys(lesson1);
 // console.log(listKeys(lesson1));
 
 
-
 // 3 - Crie uma função para mostrar o tamanho de um objeto.
 
 const sizeObject = (obj) => obj = Object.keys(obj).length;
 // console.log(sizeObject(lesson3));
-
 
 
 // 4 - Crie uma função para listar os valores de um objeto. Essa função deve receber um objeto como parâmetro.
@@ -78,12 +76,10 @@ const valueObject = (obj) => obj = Object.values(obj);
 // console.log(valueObject(lesson2));
 
 
-
 // 5 - Crie um objeto de nome allLessons , que deve agrupar todas as aulas através do Object.assign . Cada chave desse novo objeto será uma aula, sendo essas chaves: lesson1 , lesson2 e lesson3 . Ao executar o comando console.log(allLessons) , a saída deverá ser a seguinte:
 
 const allLessons = Object.assign({}, {lesson1, lesson2, lesson3})
 // console.log(allLessons);
-
 
 
 // 6 - Usando o objeto criado no exercício 5, crie uma função que retorne o número total de estudantes em todas as aulas.
@@ -107,3 +103,18 @@ const returnStudents = (obj) => {
 
 const valueKey = (obj, position) => Object.values(obj)[position];
 // console.log(valueKey(lesson2, 0));
+
+// 8 - Crie uma função que verifique se o par (chave / valor) existe na função. Essa função deve possuir três parâmetros, sendo eles: o objeto, o nome da chave e o valor da chave. Exemplo:
+
+const checkKey = (obj, key, value) => {
+  const check = Object.entries(obj);
+  let equal = false;
+
+  for (let index in check) {
+    if (check[index][0] === key && check[index][1] === value) {
+      equal = true;
+    }
+  }
+  return equal;
+}
+console.log(checkKey(lesson2,'professor','Carlos'));
