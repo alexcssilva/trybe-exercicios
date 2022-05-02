@@ -1,4 +1,4 @@
-const fs = require('fs');
+qconst fs = require('fs');
 
 const nomeDoArquivo = 'meu-arquivo.txt';
 
