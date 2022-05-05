@@ -15,4 +15,3 @@ Além disso, você verá as diferenças entre os testes unitários e de integra�
 -   Saber as diferenças e quando aplicar testes unitários e de integração;
     
 -   Desenvolver API's e arquiteturas orientadas a testes;
-    
