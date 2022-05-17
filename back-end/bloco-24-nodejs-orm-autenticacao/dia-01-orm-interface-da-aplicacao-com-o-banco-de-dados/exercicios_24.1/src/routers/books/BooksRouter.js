@@ -10,4 +10,6 @@ BooksRouter.post('/book', BooksController.createBook);
 
 BooksRouter.put('/book/:id', BooksController.updateBook);
 
+BooksRouter.delete('/book/:id', BooksController.removeBook);
+
 module.exports = BooksRouter;
