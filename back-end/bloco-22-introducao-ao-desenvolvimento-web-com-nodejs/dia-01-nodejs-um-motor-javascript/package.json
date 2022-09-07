@@ -1,0 +1,11 @@
+{
+  "name": "dia-01-nodejs-um-motor-javascript",
+  "version": "1.0.0",
+  "description": "**O que vamos aprender?**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "my-scripts",
+  "license": "ISC"
+}
