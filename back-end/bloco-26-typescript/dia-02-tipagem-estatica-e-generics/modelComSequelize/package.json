@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@types/node": "^17.0.41",
+    "@types/sequelize": "^4.28.13",
+    "dotenv": "^16.0.1",
+    "sequelize": "^6.20.1"
+  },
+  "devDependencies": {
+    "mysql2": "^2.3.3",
+    "sequelize-cli": "^6.4.1"
+  }
+}
