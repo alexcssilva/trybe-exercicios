@@ -204,53 +204,72 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 29: NodeJS
 
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 29-3: _[Projeto - Cookmaster V2]()_
+- [X] 29-1: _NodeJS - JWT - (JSON Web Token)_
+- [X] 29-2: _NodeJS - Upload de arquivos com Multer_
+- [X] 29-3: _[Projeto - Cookmaster V2]()_
 
 ##### Bloco 30: Introdução - Deploy
 
-- [ ] 30-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 30-2: _Deploy - Gerenciadores de Processos_
-- [ ] 30-3: _[Projeto - Stranger Things]()_
+- [X] 30-1: _Infraestrutura - Deploy com Heroku_
+- [X] 30-2: _Deploy - Gerenciadores de Processos_
+- [X] 30-3: _[Projeto - Stranger Things]()_
 
 ##### Bloco 31: Projeto
 
-- [ ] 31-1: _[Projeto - Trybeer]()_
+- [X] 31-1: _[Projeto - Trybeer]()_
 
 ##### Bloco 32: Arquitetura de Software
 
-- [ ] 32-1: _Arquitetura - Princí­pios SOLID_
-- [ ] 32-2: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 32-3: _Arquitetura de Software - DDD_
-- [ ] 32-4: _Boas práticas na escrita de testes_
-- [ ] 32-3: _[Projeto - API de Blogs]()_
+- [X] 32-1: _Arquitetura - Princí­pios SOLID_
+- [X] 32-2: _ORM - Interface da aplicação com o banco de dados_
+- [X] 32-3: _Arquitetura de Software - DDD_
+- [X] 32-4: _Boas práticas na escrita de testes_
+- [X] 32-3: _[Projeto - API de Blogs]()_
 
 ##### Bloco 33: Sockets
 
-- [ ] 30-1: _Sockets - TCP/UDP & NET_
-- [ ] 30-2: _Sockets - Socket.io_
-- [ ] 30-3: _[Projeto - Webchat]()_
+- [X] 30-1: _Sockets - TCP/UDP & NET_
+- [X] 30-2: _Sockets - Socket.io_
+- [X] 30-3: _[Projeto - Webchat]()_
 
 ##### Bloco 34: Projeto
 
-- [ ] 34-1: _[Projeto - Trybeer V2]()_
+- [X] 34-1: _[Projeto - Trybeer V2]()_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
 ##### Bloco 35: Introdução - Ciência da Computação
 
-- [ ] 35-1: _Arquitetura de Computadores_
-- [ ] 35-2: _Arquitetura de redes_
-- [ ] 35-3: _Redes de computadores, ferramentas e segurança_
-- [ ] 35-4: _[Projeto - Explorando os protocolos]()_
+- [X] 35-1: _Arquitetura de Computadores_
+- [X] 35-2: _Arquitetura de redes_
+- [X] 35-3: _Redes de computadores, ferramentas e segurança_
+- [X] 35-4: _[Projeto - Explorando os protocolos]()_
 
 ##### Bloco 36: Python
 
-- [ ] 35-1: _Aprendendo Python_
-- [ ] 35-2: _Testes e Exceções_
-- [ ] 35-3: _Entrada e Saí­da de dados_
-- [ ] 36-4: _Entrada e Saí­da de dados_
-- [ ] 35-5: _[Projeto - Tech news]()_
+- [X] 35-1: _Aprendendo Python_
+- [X] 35-2: _Testes e Exceções_
+- [X] 35-3: _Entrada e Saí­da de dados_
+- [X] 36-4: _Entrada e Saí­da de dados_
+- [X] 35-5: _[Projeto - Tech news]()_
 
-# [...]
+#### Bloco 36: Algoritmos
+
+- [X] 36-01: Complexidade de Algoritmos
+- [X] 36-02: Recursividade e Estratégias para solução de problemas
+- [X] 36-03: Algoritmos de ordenação e busca
+- [X] 36-04: Projeto - Algoritmos
+	 
+#### Bloco 37: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
+
+- [X] 37-01: Arquitetura de Computadores
+- [X] 37-02: Arrays
+- [X] 37-03: Nó e Listas Encadeadas
+- [X] 37-04: Pilhas e Filas
+- [X] 37-05: Projeto - TING - Trybe Is Not Google
+	 
+- #### Bloco 38: Estrutura de Dados II: Hashmaps e Sets
+
+- [X] 38-01: Hashmap e Dict
+- [X] 38-02: Set
+- [X] 38-03: Projeto - Restaurant Orders
