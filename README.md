@@ -6,6 +6,8 @@ _"A Trybe  uma escola do futuro para qualquer pessoa que queira melhorar de vida
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
+## <center>**INÍCIO DO CURSO 20/09/2021**</center> :open_mouth: :tada:
+
 ## Fundamentos do Desenvolvimento Web :white_check_mark:
 
 ##### Bloco 1: Introdução - Unix & Shell
@@ -273,3 +275,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 38-01: Hashmap e Dict
 - [X] 38-02: Set
 - [X] 38-03: Projeto - Restaurant Orders
+
+
+## <center>**FIM DO CURSO 28/10/2022**</center> :sunglasses: :smile: :tada:
