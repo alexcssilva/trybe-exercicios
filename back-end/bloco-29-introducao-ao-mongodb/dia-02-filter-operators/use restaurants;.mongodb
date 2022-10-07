@@ -1,0 +1,3 @@
+use restaurants;
+
+db.restaurants.find()
